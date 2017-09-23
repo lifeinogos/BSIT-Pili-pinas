@@ -145,7 +145,7 @@ font-family: abeatbykai;
 }
 </style>
 </head>
-<body onLoad="collarChange(event)>
+<body>
 	<nav class="navbar navbar-custom navbar-fixed-top text-center">
 					
 						<div class="navbar-header" >
