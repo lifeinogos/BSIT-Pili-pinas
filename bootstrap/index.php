@@ -121,7 +121,13 @@ var t = setTimeout(showLast, 5000);
 		clearTimeout(to);
 	}
 
-}</script>
+}
+function modal() {
+	alert('yo');
+}
+
+</script>
+
 
 <style>
 select{
@@ -197,7 +203,7 @@ font-family: abeatbykai;
 
 </style>
 </head>
-<body onLoad="collarChange(event)>
+<body onLoad="collarChange(event)">
 	<nav class="navbar navbar-custom navbar-fixed-top text-center">
 					
 						<div class="navbar-header" >
@@ -288,17 +294,23 @@ font-family: abeatbykai;
 	  <div id="l"  style="display:none;">
 		<img id="fade" src="img/luzonhhh.jpg" style="width:60%">
 	  </div>
+	  
+	  <form action="luzondb.php" method="GET">
 	  <div id="lu" style="display:none; position: absolute; top: 0; right: 0;  height: 100%;">
-		<img id="fade" src="img/mark.png" style="width:10%; top: 40%; left: 14%; position: relative;"> <!-- rizals-->
-		<img id="fade" src="img/mark.png" style="width:10%; top: 17%; right: 1%; position: relative;"> <!-- Calle Crisologo//Ilocos Sur -->
-		<img id="fade" src="img/mark.png" style="width:10%; top: 40.9%; right: 10.1%;position: relative;"><!-- Corregidor Island, Manila Bay, Cavite -->
-		</div>
+		<button type="submit"  name="search" value="rizal" style="width:10%; top: 40%; left: 14%; position: relative;background-color: Transparent; background-repeat:no-repeat; border: none; cursor:pointer;">
+				<img id="fade"  src="img/mark.png" style="width: 120%;">
+		</button> <!-- rizals-->
+		<button type="submit" name="search" value="crisologo" style="width:10%; top: 17%; right: 1%; position: relative;background-color: Transparent; background-repeat:no-repeat; border: none; cursor:pointer;">
+			<img id="fade" src="img/mark.png" style="width:120%;"> <!-- Calle Crisologo//Ilocos Sur -->
+		</button>
+		<button type="submit" name="search" value="corregidor" style="width:10%; top: 40.9%; right: 10.1%; position: relative;background-color: Transparent; background-repeat:no-repeat; border: none; cursor:pointer;">		
+			<img id="fade" src="img/mark.png" style="width:120%;"><!-- Corregidor Island, Manila Bay, Cavite -->
+		</button>
+	  </form>
+	  
 	  </div>
 	  </div>
-	 
-	 
-	
-	
+	  </div>
 	
 	<div id="Visayas"  style="display:none; position: relative;" class="answer_list" >
 	<div class="slideshow-container">
@@ -311,9 +323,14 @@ font-family: abeatbykai;
 	  <div id="v" style="display:none; ">
 		<img id="fade" src="img/visayashhh.jpg" style="width:60%;">
 	</div>
+	
+	<form action="luzondb.php" method="post">
 	<div id="vi" style="display:none; position: absolute; top: 0; right: 0; height: 100%;">
-		<img id="fade" src="img/mark.png" style="width:13%; top: 47%; right: 12%; position: relative;"> <!--  Fort San Pedro//Plaza Independencia, Cebu City -->
+		<button type="submit" name="search" value="fortsanpedro" style="width:10%; top: 47%; right: 12%; position: relative;background-color: Transparent; background-repeat:no-repeat; border: none; cursor:pointer;">				
+			<img id="fade" src="img/mark.png" style="width:150%;"> <!--  Fort San Pedro//Plaza Independencia, Cebu City -->
+		</button>
 	</div>
+	</form>
 	</div>
 	</div>
 	
@@ -328,9 +345,14 @@ font-family: abeatbykai;
 	  <div id="m" style="display:none;">
 		<img id="fade" src="img/mindanaohhh.jpg" style="width:60%">
 	  </div>
+	  
+	 <form action="luzondb.php" method="post">
 	 <div id="mi" style="display:none; position: absolute; top: 0; right: 0; ">
-		<img id="fade" src="img/marker.png" style="width:30%;">
-		</div>
+		<button type="submit" name="search" value="unknown" style="width:10%; top: 47%; right: 12%; position: relative;background-color: Transparent; background-repeat:no-repeat; border: none; cursor:pointer;">						
+			<img id="fade" src="img/marker.png" style="width:150%;">
+		</button>
+	</div>
+	</form>
 	 </div>
 	 
 	</div>
