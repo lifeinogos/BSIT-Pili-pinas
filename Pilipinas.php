@@ -24,6 +24,7 @@ class Pilipinas extends CI_Controller {
 	}
 	
 		public function home(){
+			
 		$data['title'] = "Bootstrap Intro";
 		$data['contents'] = "Display bootstrap contents";
 		
@@ -31,7 +32,7 @@ class Pilipinas extends CI_Controller {
 		$this->load->view('students/homepage');
 	}
 	
-	public function travel(){
+		public function travel(){
 		  
 		$data['title'] = "Bootstrap Intro";
 		$data['contents'] = "Display bootstrap contents";
@@ -42,8 +43,8 @@ class Pilipinas extends CI_Controller {
 	}
 	
 	
-	public function travel2(){
-		  
+		public function travel2(){
+			
 		$data['title'] = "Bootstrap Intro";
 		$data['contents'] = "Display bootstrap contents";
 		
@@ -53,7 +54,7 @@ class Pilipinas extends CI_Controller {
 	}
 	
 	
-	public function travel3(){
+		public function travel3(){
 		  
 		$data['title'] = "Bootstrap Intro";
 		$data['contents'] = "Display bootstrap contents";
@@ -64,6 +65,13 @@ class Pilipinas extends CI_Controller {
 	}
 
 	
-	public function delete_student(){
+		public function history(){
+			
+		$data['title'] = "Bootstrap Intro";
+		$data['contents'] = "Display bootstrap contents";
+		
+		$this->load->view('include/header', $data);
+		$this->load->view('students/history_pg1');
+		// $this->load->view('include/footer');
 	}
 }
