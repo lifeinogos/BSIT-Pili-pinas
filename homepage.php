@@ -28,10 +28,10 @@
 									</ul>
 								  </li>
 						    <li class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" href="#">History
+									<a class="dropdown-toggle" data-toggle="dropdown" href="">History
 									<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-									  <li><a href="#">World Heritage Sites</a></li>
+									  <li><a href="<?php echo base_url('Pilipinas/history/');?>">World Heritage Sites</a></li>
 									  <li class="divider"></li>
 									  <li><a href="#">Heritage Events</a></li>
 									</ul>
