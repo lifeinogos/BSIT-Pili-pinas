@@ -38,40 +38,27 @@ class Pilipinas extends CI_Controller {
 		$data['contents'] = "Display bootstrap contents";
 		
 		$this->load->view('include/header', $data);
-		$this->load->view('students/travel_pg1');
+		$this->load->view('students/travel');
 		// $this->load->view('include/footer');
 	}
-	
-	
-		public function travel2(){
-			
-		$data['title'] = "Bootstrap Intro";
-		$data['contents'] = "Display bootstrap contents";
 		
-		$this->load->view('include/header', $data);
-		$this->load->view('students/travel_pg2');
-		// $this->load->view('include/footer');
-	}
-	
-	
-		public function travel3(){
-		  
-		$data['title'] = "Bootstrap Intro";
-		$data['contents'] = "Display bootstrap contents";
-		
-		$this->load->view('include/header', $data);
-		$this->load->view('students/travel_pg3');
-		// $this->load->view('include/footer');
-	}
-
-	
 		public function history(){
 			
 		$data['title'] = "Bootstrap Intro";
 		$data['contents'] = "Display bootstrap contents";
 		
 		$this->load->view('include/header', $data);
-		$this->load->view('students/history_pg1');
+		$this->load->view('students/history');
 		// $this->load->view('include/footer');
 	}
+	
+		public function about(){
+		
+		$data['title'] = "Bootstrap Intro";
+		$data['contents'] = "Display bootstrap contents";
+		
+		$this->load->view('include/header', $data);
+		$this->load->view('students/about');
+		// $this->load->view('include/footer');
+		}
 }
