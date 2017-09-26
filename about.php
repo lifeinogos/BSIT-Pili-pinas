@@ -1,5 +1,5 @@
 <!-- Homepage -->
-
+	  
 	 <nav class="navbar navbar-custom navbar-fixed-top text-center">
 					
 						<div class="navbar-header" >
@@ -20,7 +20,7 @@
 									<a class="dropdown-toggle" data-toggle="dropdown" href="">Travel
 									<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-									  <li class="active"><a href="<?php echo base_url('Pilipinas/travel/');?>"> Breathtaking Tourist Spots </a></li>
+									  <li><a href="<?php echo base_url('Pilipinas/travel/');?>"> Breathtaking Tourist Spots </a></li>
 									  <li class="divider"></li>
 									  <li><a href="<?php echo base_url('Pilipinas/travel2/');?>">Must Try Outdoor Activities</a></li>
 									  <li class="divider"></li>
@@ -31,12 +31,12 @@
 									<a class="dropdown-toggle" data-toggle="dropdown" href="#">History
 									<span class="caret"></span></a>
 									<ul class="dropdown-menu">
-									  <li><a href="<?php echo base_url('Pilipinas/history/');?>">World Heritage Sites</a></li>
+									  <li><a href="#">World Heritage Sites</a></li>
 									  <li class="divider"></li>
 									  <li><a href="#">Heritage Events</a></li>
 									</ul>
 								  </li>
-							 <li><a href="<?php echo base_url('Pilipinas/about/');?>">About</a></li>		
+							 <li class="active"><a href="<?php echo base_url('Pilipinas/about/');?>">About</a></li>
 			    </ul> 
 						  
 						
@@ -102,106 +102,56 @@
 		  <span class="sr-only">Next</span>
 		</a>
 	  </div>
+	</div>	
+
+	
+	
+	<div class = "row text-center" id ="embed">
+	<br />
+		<div class = "col-md-6">
+			<img src="<?php echo base_url('img/main.jpg') ?>" alt="" style="width:100%;">
+		</div>
+	
+		<div class = "col-md-6">
+			<h1> ABOUT US </h1>
+			<h3>PILIPINAS serves as an online tourist hub showcasing detailed information about the country’s heritage, culture, and natural landmarks.</h3>
+									  
+			<p>This website will also promote local businesses by advertising their products and services for free; like local-made souvenirs and local travel guides.
+								
+				Pili-Pinas is a website that aims to attract Locals and International Tourists who wish to travel around The Philippines.
+				It also aims to advocate local businessmen in promoting Filipino-pride goods and services.</p>
+				<br />
+				<br />
+		</div>
 	</div>
 	
-	
-	
-	<div class="item">
-	<img src="img/slider_3.jpg" alt="" style="width:100%;">
-	</div>
-		<div class = "container-fluid">
-		<div class = "row text-center">
-		<h1 style="color:#C92E2E;"> INSERT CITY/PROVINCE HERE</h1>
-		<h4 style="color:#b9b5b5;"> details here</h4>
-				<ul id="rig">
-					<li>
-						<a class="rig-cell" href="#">
-							<img class="rig-img" src="img/desti1.png">
-							<span class="rig-overlay"></span>
-							<span class="rig-text">Lorem Ipsum Dolor</span>
-						</a>
-					</li>
-					<li>
-						<a class="rig-cell" href="#">
-							<img class="rig-img" src="img/desti2.png">
-							<span class="rig-overlay"></span>
-							<span class="rig-text">Consectetur Adipiscing</span>
-						</a>
-					</li>
-					<li>
-						<a class="rig-cell" href="#">
-							<img class="rig-img" src="img/desti3.png">
-							<span class="rig-overlay"></span>
-							<span class="rig-text">Vivamus ut Felis</span>
-						</a>
-					</li>
-					<li>
-						<a class="rig-cell" href="#">
-							<img class="rig-img" src="img/desti4.png">
-							<span class="rig-overlay"></span>
-							<span class="rig-text">Curabitur tempus</span>
-						</a>
-					</li>
-					<li>
-						<a class="rig-cell" href="#">
-							<img class="rig-img" src="img/desti5.png">
-							<span class="rig-overlay"></span>
-							<span class="rig-text">Sed et nunc luctus</span>
-						</a>
-					</li>
-					<li>
-						<a class="rig-cell" href="#">
-							<img class="rig-img" src="img/desti6.png">
-							<span class="rig-overlay"></span>
-							<span class="rig-text">Suspendisse tellus</span>
-						</a>
-					</li>
-					<li>
-						<a class="rig-cell" href="#">
-							<img class="rig-img" src="img/desti1.png">
-							<span class="rig-overlay"></span>
-							<span class="rig-text">pellentesque odio</span>
-						</a>
-					</li>
-					<li>
-						<a class="rig-cell" href="#">
-							<img class="rig-img" src="img/desti2.png">
-							<span class="rig-overlay"></span>
-							<span class="rig-text">Nam euismod</span>
-						</a>
-					</li>
-					<li>
-						<a class="rig-cell" href="#">
-							<img class="rig-img" src="img/desti3.png">
-							<span class="rig-overlay"></span>
-							<span class="rig-text">Vestibulum ultricies</span>
-						</a>
-					</li>
-					<li>
-						<a class="rig-cell" href="#">
-							<img class="rig-img" src="img/desti4.png">
-							<span class="rig-overlay"></span>
-							<span class="rig-text">quis interdum sapien</span>
-						</a>
-					</li>
-					<li>
-						<a class="rig-cell" href="#">
-							<img class="rig-img" src="img/desti5.png">
-							<span class="rig-overlay"></span>
-							<span class="rig-text">Maecenas vitae</span>
-						</a>
-					</li>
-					<li>
-						<a class="rig-cell" href="#">
-							<img class="rig-img" src="img/desti6.png">
-							<span class="rig-overlay"></span>
-							<span class="rig-text">Proin Scelerisque</span>
-						</a>
-					</li>
-				</ul>
-			</div>
+		<div class = "col-md-6">
+		<br />
+			<img src="<?php echo base_url('img/featured_1.jpg') ?>" alt="" style="width:60%;">
+			<img src="<?php echo base_url('img/featured_3.jpg') ?>" alt="" style="width:60%;">
 		</div>
 
+		<div class = "col-md-6">
+			<h1>PILIPINAS</h1>
+			<p>has the following features:
+					<ul>
+						<li>One-stop interactive detailed website for locating all Philippine’s tourist destinations</li>
+						<li>List and galleries of places categorized accordingly</li>
+						<li>Suggestion based on filters chosen by the tourist</li>
+						<li>Integrated local travel guide offers</li>
+						<li>Voting for popularity and experience</li>
+						<li>Reviews that will help in suggestion for future development of that place</li>
+						<li>Advertisement for local products on it’s respective places</li>
+						<li>Estimated minimum budget needed for visiting the spot</li>
+					</ul>
+			
+			</p>
+		</div>
+
+	</div>
+	
+	
+	
 	
 	
 	<!-- footer -->
@@ -234,5 +184,7 @@
 	<div class = "row text-center" id ="ARR">
 		<h3> All Rights Reserved 2017<h3>
 	</div>
-</div>
 
+	
+
+</div>
