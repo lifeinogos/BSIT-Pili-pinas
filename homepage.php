@@ -8,57 +8,28 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>                        
 						  </button>
-					  <img src = "<?php echo base_url('img/logo.png') ?>" width = "100" class="img-responsive" alt="Los Angeles">
+							<img src = "<?php echo base_url('img/logo.png') ?>" width = "100" class="img-responsive" alt="Los Angeles">
 						
 						</div>
 						
-						<div  class="collapse navbar-collapse" id="myNavbar">
+			<div  class="collapse navbar-collapse" id="myNavbar">
 						
 				<ul class="nav navbar-nav">
 							<li class="active"><a href="<?php echo base_url('Pilipinas/home/');?>">Home</a></li>
-							<li class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" href="">Travel
-									<span class="caret"></span></a>
-									<ul class="dropdown-menu">
-									  <li><a href="<?php echo base_url('Pilipinas/travel/');?>"> Breathtaking Tourist Spots </a></li>
-									  <li class="divider"></li>
-									  <li><a href="<?php echo base_url('Pilipinas/travel2/');?>">Must Try Outdoor Activities</a></li>
-									  <li class="divider"></li>
-									  <li><a href="<?php echo base_url('Pilipinas/travel3/');?>">Calendar of Festivals</a></li> 
-									</ul>
-								  </li>
-						    <li class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" href="">History
-									<span class="caret"></span></a>
-									<ul class="dropdown-menu">
-									  <li><a href="<?php echo base_url('Pilipinas/history/');?>">World Heritage Sites</a></li>
-									  <li class="divider"></li>
-									  <li><a href="#">Heritage Events</a></li>
-									</ul>
-								  </li>
-							 <li class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" href="#">About
-									<span class="caret"></span></a>
-									<ul class="dropdown-menu">
-									  <li><a href="#">Contact Us</a></li>
-									  <li class="divider"></li>
-									  <li><a href="#">Terms and Conditions</a></li>
-									</ul>
-								  </li>			
+							<li><a href="<?php echo base_url('Pilipinas/travel/');?>">Travel
+							<li><a href="<?php echo base_url('Pilipinas/history/');?>">History
+							<li><a href="<?php echo base_url('Pilipinas/about/');?>">About				
 			    </ul> 
 						  
-						
-						  <ul class = "nav navbar-nav " style = "margin-top: -10px;">
+				 <ul class = "nav navbar-nav " style = "margin-top: -10px;">
 						  <li> 
 								<form action="" method="get" id="search">	
 									<input type="text" name="search" class="search" value = "Search places"/> 
 									<input type="submit" value="Search" />
 								</form> 
 						  </li>
-						  </ul>
-						 
-						 
-						</div>
+				 </ul>		 		 
+			</div>
 	</nav>
 	
 <div class = "container-fluid" style = "background-image: url('img/background')">	
