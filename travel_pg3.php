@@ -15,7 +15,7 @@
 						<div  class="collapse navbar-collapse" id="myNavbar">
 						
 				<ul class="nav navbar-nav">
-							<li class="active"><a href="<?php echo base_url('Pilipinas/home/');?>">Home</a></li>
+							<li><a href="<?php echo base_url('Pilipinas/home/');?>">Home</a></li>
 							<li class="dropdown">
 									<a class="dropdown-toggle" data-toggle="dropdown" href="">Travel
 									<span class="caret"></span></a>
@@ -24,7 +24,7 @@
 									  <li class="divider"></li>
 									  <li><a href="<?php echo base_url('Pilipinas/travel2/');?>">Must Try Outdoor Activities</a></li>
 									  <li class="divider"></li>
-									  <li><a href="<?php echo base_url('Pilipinas/travel3/');?>">Calendar of Festivals</a></li> 
+									  <li class="active"><a href="<?php echo base_url('Pilipinas/travel3/');?>">Calendar of Festivals</a></li> 
 									</ul>
 								  </li>
 						    <li class="dropdown">
@@ -36,15 +36,7 @@
 									  <li><a href="#">Heritage Events</a></li>
 									</ul>
 								  </li>
-							 <li class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" href="#">About
-									<span class="caret"></span></a>
-									<ul class="dropdown-menu">
-									  <li><a href="#">Contact Us</a></li>
-									  <li class="divider"></li>
-									  <li><a href="#">Terms and Conditions</a></li>
-									</ul>
-								  </li>			
+							 <li><a href="<?php echo base_url('Pilipinas/about/');?>">About</a></li>				
 			    </ul> 
 						  
 						
@@ -122,32 +114,6 @@
 		</div>
 </div>
 
-
-<div class="col-md-4">	 
-        <div class="thumbnail">
-			<a href = ""> <img src="<?php echo base_url('img/featured-1.jpg') ?>" alt="Featured" style=" width:100%; height: 100%; "> </a>
-          <div class="caption">
-            <h3 class="">Rizal Park - MANILA</h3> 
-            <p> The capital of the Philippines- its heart and soul -- is Manila. It sets the rhythm of life in this archipelago and is a pulsating hub that blends the Oriental with the Occidental, the quaint with the modern, the mundane with the extraordinary. </p>
-            <div class="btn-toolbar text-center">
-              <a href="#" role="button" class="btn btn-primary pull-right">Details</a>
-            </div>
-          </div>
-        </div>
-</div>
-
-<div class="col-md-4">	
-        <div class="thumbnail">
-         <a href = ""> <img src="<?php echo base_url('img/featured-2.jpg') ?>" alt="Featured" style=" width:100%; height: 100%; "> </a>
-          <div class="caption">
-            <h3 class="">Boracay - AKLAN</h3> 
-            <p>Boracay Island, with its sugary white sand beaches and azure blue water, is located on the northwestern tip of Panay, Western Visayas. The bset of the island is the 4 km. White Beach, touted as the "finest beach in the world". </p>
-            <div class="btn-toolbar text-center">
-              <a href="#" role="button" class="btn btn-primary pull-right">Details</a>
-            </div>
-          </div>
-        </div>
-</div>
 
 
 	<!-- End of Featured Destinations -->
@@ -263,8 +229,8 @@
 		</div>
 		<div class = "col-md-2 text-center">
 			<h3> FOLLOW US ON</h3>
-			<a href = ""> Twitter</a>
-			<a href = ""> Facebook  </a>
+			<img src = "<?php echo base_url('img/twitter.png') ?>" width = "10%"/> <a href = "Twitter"> Twitter </a>
+			<img src = "<?php echo base_url('img/facebook.png') ?>" width = "10%"/> <a href = "Facebook"> Facebook  </a>
 			
 		</div>
 		<div class = "col-md-2">

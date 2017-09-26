@@ -36,15 +36,7 @@
 									  <li><a href="#">Heritage Events</a></li>
 									</ul>
 								  </li>
-							 <li class="dropdown">
-									<a class="dropdown-toggle" data-toggle="dropdown" href="#">About
-									<span class="caret"></span></a>
-									<ul class="dropdown-menu">
-									  <li><a href="#">Contact Us</a></li>
-									  <li class="divider"></li>
-									  <li><a href="#">Terms and Conditions</a></li>
-									</ul>
-								  </li>			
+							<li><a href="<?php echo base_url('Pilipinas/about/');?>">About</a></li>	
 			    </ul> 
 						  
 						
@@ -275,8 +267,8 @@
 		</div>
 		<div class = "col-md-2 text-center">
 			<h3> FOLLOW US ON</h3>
-			<a href = ""> Twitter</a>
-			<a href = ""> Facebook  </a>
+			<img src = "<?php echo base_url('img/twitter.png') ?>" width = "10%"/> <a href = "Twitter"> Twitter </a>
+			<img src = "<?php echo base_url('img/facebook.png') ?>" width = "10%"/> <a href = "Facebook"> Facebook  </a>
 			
 		</div>
 		<div class = "col-md-2">
