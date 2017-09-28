@@ -1,7 +1,7 @@
 # BSIT-Pili-pinas
 BSIT 3A Pili-pinas
 
-Contributors:
+Contributors: <br />
   Mercado,Mark Augustine P.
   Abenoja,Robilyn F.
   Calong,Abigail A.
