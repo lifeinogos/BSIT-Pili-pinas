@@ -2,8 +2,8 @@
 BSIT 3A Pili-pinas
 
 Contributors: <br />
-  Mercado,Mark Augustine P.
-  Abenoja,Robilyn F.
-  Calong,Abigail A.
-  Curbi,Katrina Melody S.
+  Mercado,Mark Augustine P. <br />
+  Abenoja,Robilyn F.        <br />
+  Calong,Abigail A.         <br />
+  Curbi,Katrina Melody S.   <br />
   Zaldua,Joanalyn V.
