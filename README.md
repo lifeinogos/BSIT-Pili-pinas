@@ -1,4 +1,9 @@
 # BSIT-Pili-pinas
 BSIT 3A Pili-pinas
 
-JOANAAAAA. PA CLONE/DL TAS ILAGAY SA ISANG FOLDER LOL 
+Contributors:
+  Mercado,Mark Augustine P.
+  Abenoja,Robilyn F.
+  Calong,Abigail A.
+  Curbi,Katrina Melody S.
+  Zaldua,Joanalyn V.
